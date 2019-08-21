@@ -1,0 +1,11 @@
+// .alert-myalert{
+//     @include alert-variant(rgb(119, 61, 88), rgb(122, 0, 57), white);    
+// }
+
+@each $color, $value in $theme-colors {
+    .alert-#{$color}{
+        box-shadow: 3px 3px theme-color-level($color, -3);
+    }
+} 
+
+

@@ -1,0 +1,30 @@
+
+
+
+$enable-shadows: true;
+$enable-gradients: true;
+// Changing the body background and text
+$body-bg: white;
+$body-color:black;
+
+// Changing the border radius of btn
+$border-radius: 8px;
+
+// Changing color
+$primary:       red !default;
+$secondary:     rgb(33, 33, 179);
+$success:       green !default;
+$info:          gray !default;
+$warning:       black !default;
+$danger:        rgb(136, 17, 17) !default;
+$light:         white !default;
+$dark:          black !default;
+
+// Adding an additional theme color
+//$grid-columns: 24 ;
+$theme-colors:(
+    "cool": rgb(216, 159, 4),
+    "myalert": rgb(122, 0, 57)
+)
+
+
